@@ -10,9 +10,12 @@ S. Nagel and M. Spüler, ''Modelling the brain response to arbitrary visual stim
 
 In the literature, some studies reported that the evoked response can be recognized as the response to a single impulse, i.e., impulse response. Furthermore, the steady-state responses or the code-modulated responses could be considered as the temporal superposition of the impulse responses. 
 
-Based on this idea, we may  decompose an SSVEP into two parts: 1) the impulse response and 2) the periodic impulse (i.e., visual stimulus).
+Based on this idea, we may decompose an SSVEP into two parts: 1) the impulse response and 2) the periodic impulse (i.e., visual stimulus). Moreover, we can reconstruct new SSVEPs using the impulse responses corresponding to the existing SSVEPs and the pre-defined visual stimuli. For more details, please refer to the following paper:
+
+Wong, C. M., et al. (2021). Transferring Subject-Specific Knowledge Across Stimulus Frequencies in SSVEP-Based BCIs. IEEE Transactions on Automation Science and Engineering. (Accepted)
 
 # Demos
+
 Here we provide four demos to show how to decompose an SSVEP and reconstruct a new SSVEP. Then we measure the difference between the original SSVEP and the reconstructed SSVEP by using the correlation and mean square error (MSE)
 
 Demo1: we decompose an SSVEP and then reconstruct it (corresponding to the same stimulus). We measure their difference by using the correlation and MSE. 
@@ -25,7 +28,9 @@ Demo2a: Demo 1a is similar to Demo2. But this demo uses the canonical correlatio
 
 Date: 23 March 2021
 
-All of the codes are prepared by Chi Man Wong. If you have any feedback or questions, please send email to chiman465@gmail.com.
+# Citation and Contact
+
+All of the codes are prepared by Chi Man Wong. If you have any comments or questions, please send email to chiman465@gmail.com.
 
 If you use this code for a publication, please cite the following paper:
 
