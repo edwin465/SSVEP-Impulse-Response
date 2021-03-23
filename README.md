@@ -20,11 +20,11 @@ Here we provide four demos to show how to decompose an SSVEP and reconstruct a n
 
 Demo1: we decompose an SSVEP and then reconstruct it (corresponding to the same stimulus). We measure their difference by using the correlation and MSE. 
 
-Demo2: we decompose an SSVEP corresponding to the i-th stimulus and then reconstruct a new SSVEP corresponding to the (i+1)-th stimulus). We measure the difference between the original SSVEP and the reconstructed SSVEP (both corresponding to the (i+1)-th stimulus.
+Demo2: we decompose an SSVEP corresponding to the i-th stimulus and then reconstruct a new SSVEP corresponding to the (i+1)-th stimulus. We measure the difference between the original SSVEP and the reconstructed SSVEP (both corresponding to the (i+1)-th stimulus).
 
 Demo1a: Demo 1a is similar to Demo1. But this demo uses the canonical correlation analysis (rather than ALS) to find the spatial filter and impulse response when we decompose the SSVEP.
 
-Demo2a: Demo 1a is similar to Demo2. But this demo uses the canonical correlation analysis (rather than ALS) to find the spatial filter and impulse response when we decompose the SSVEP.
+Demo2a: Demo 2a is similar to Demo2. But this demo uses the canonical correlation analysis (rather than ALS) to find the spatial filter and impulse response when we decompose the SSVEP.
 
 Date: 23 March 2021
 
